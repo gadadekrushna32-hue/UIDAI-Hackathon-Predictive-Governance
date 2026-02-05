@@ -1,19 +1,22 @@
-# 🏛️ UIDAI Predictive Governance: Enrollment Forecasting
-**Optimizing Resource Allocation for Aadhaar Centers using Time-Series Analysis**
+# 🏛️ AI-Driven Predictive Governance: Aadhaar Enrollment Forecasting
+**Optimizing Resource Allocation using Advanced Time-Series Analytics**
 
-## 🌟 Project Inspiration
-Coming from a **Mechanical Engineering** background, I wanted to apply analytical rigor to a real-world social problem. This project was developed for the **UIDAI National Hackathon**, focusing on data-driven governance.
+## 🚀 Project Overview
+This project was developed for the **UIDAI National Hackathon** to address the challenges of resource management at Aadhaar centers. By analyzing historical enrolment and update data, the model provides actionable insights for proactive governance.
 
-## 🚀 Key Features & Innovation
-* **Time-Series Forecasting:** Used **Prophet** and **ARIMA** to predict enrollment demand with high accuracy.
-* **PEWI Logic:** Introduced the **Pincode Enrollment Wastage Index (PEWI)** to identify underutilized resources vs. high-demand areas.
-* **Automation:** Developed a 46-page comprehensive analysis pipeline for data cleaning and visualization.
+## ✨ Key Features & Innovation
+* **Demand Forecasting:** Implemented **Prophet** and **ARIMA** models to predict future enrolment trends with high precision.
+* **PEWI Score (Pincode Enrollment Wastage Index):** A custom metric developed to identify regions with underutilized infrastructure versus those with high unmet demand.
+* **Granular Analysis:** Conducted state-wise and district-wise trend analysis to detect seasonal peaks and regional anomalies.
+* **Performance Validation:** Models were validated using **MAE (Mean Absolute Error)** and **MAPE** metrics to ensure reliability.
 
-## 📊 Impact
-* Predicted high-demand districts with **87% accuracy**.
-* Identified 12 critical hotspots for resource relocation to reduce citizen wait times.
+## 📊 Governance Impact
+* **Resource Optimization:** Predictive insights allow for better allocation of mobile kits and temporary staff.
+* **Efficiency:** Identified high-demand hotspots to reduce citizen wait times and administrative overhead.
+* **Capacity Planning:** Provides a data-driven roadmap for future infrastructure expansion.
 
 ## 🛠️ Tech Stack
 * **Language:** Python
-* **Models:** Prophet, ARIMA, Random Forest
-* **Libraries:** Pandas, Scikit-learn, Matplotlib, Seaborn
+* **Models:** Facebook Prophet, ARIMA, Random Forest
+* **Data Handling:** Pandas, NumPy
+* **Visualization:** Matplotlib, Seaborn
